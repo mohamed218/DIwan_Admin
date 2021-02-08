@@ -48,6 +48,16 @@ public class HomePage extends PageBase {
 	}
 	
 	
+	//internal news navigation 
+	@FindBy(css=".HomeListItem:nth-child(3) .main-nav-container")
+	WebElement internalNewsCard ; 
+	
+	public void InternalNewsNavigation() {
+		
+		internalNewsCard.click();
+	}
+	
+	
 	
 
 	
